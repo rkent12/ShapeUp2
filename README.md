@@ -1,2 +1,2 @@
 # ShapeUp2
-https://ryankentshapeup3.netlify.app/index.html
+https://ryankentshapeup3.netlify.app/shapeup/index.html
