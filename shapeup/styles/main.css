@@ -1,21 +1,32 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    width: 60%;
+    max-width: 850px;
+    margin: 0 auto;
+    border: 5px solid steelblue;
+    box-shadow: 5px 5px 8px #cccccc;
 }
 h1 {
     font-size: 300%;
+    margin-left: 15px;
 }
-
+header {
+    border-bottom: 5px solid steelblue;
+    background-image: linear-gradient(white,lightsteelblue);
+}
 header h2 {
     font-size: 250%;
     color: steelblue;
     font-style: italic;
-    text-shadow: 2px 2px 15px hotpink;
-
-
+    text-shadow: 2px 2px 15px #888888;
+    margin-top: 15px;
 }
+
 header h3 {
     font-size: 150%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 a:link {
     color:maroon;
@@ -44,6 +55,20 @@ aside a {
 section h2, section h3, aside h2 {
     font-size: 150%;
 }
+section p {
+    margin: 15px;
+}
+section blockquote {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 90%;
+    color: navy;
+    border-left: 3px solid maroon;
+    padding-left: 5px;
+    background-color: khaki;
+}
+
+
 header img {
     float: left;
     margin-left: 10px;
@@ -54,7 +79,15 @@ header img {
 li {
     margin-top: 5px;
 }
+footer {
+    background-color: steelblue;
+}
 footer p {
     font-size: 75%;
     text-align: center;
+    color: white;
+    padding: 25px;
+    font-weight: bold;
+    font-variant: small-caps;
+
 }
