@@ -1,0 +1,213 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html {
+    background-image: url("../images/paper.gif");
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    border: 5px solid steelblue;
+    box-shadow: 5px 5px 8px #cccccc;
+}
+
+h1 {
+    font-size: 250%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+header {
+    border-bottom: 5px solid steelblue;
+    background-image: linear-gradient(white,lightsteelblue);
+}
+
+header h2 {
+    font-size: 250%;
+    color: steelblue;
+    font-style: italic;
+    text-shadow: 2px 2px 15px #888888;
+    margin-top: 15px;
+}
+
+header h3 {
+    font-size: 150%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:link {
+    color:maroon;
+}
+
+a:visited {
+    color:maroon;
+}
+
+aside a:visited {
+    color: steelblue;
+}
+
+aside a:hover {
+    color: maroon;
+}
+
+aside a:active {
+    color: maroon;
+}
+
+a:hover {
+    color:steelblue;
+}
+
+a:active {
+    color:maroon;
+}
+
+aside a {
+    font-weight: bold;
+}
+
+.sidebar {
+    padding-top: 20px;
+    width: 33%;
+    padding-left: 10px;
+}
+
+aside h2 {
+    padding-left: 10px;
+}
+
+.sidebar h2 {
+    font-size: 180%;
+    color: maroon;
+    float: left;
+}
+
+.homesection {
+    width: 65%;
+    float: right;
+
+}
+
+aside {
+    padding-left: 10px;
+}
+
+aside ul {
+    padding-left: 45px;
+}
+
+/* Horizontal Menu Bar Style */
+#nav_menu ul {
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px 0;
+    background-color: #afeeee;
+}
+
+#nav_menu ul li {
+    display: inline;
+    padding: 5px 20px;
+    border-right: 3px solid black;
+}
+
+#nav_menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+#nav_menu #last {
+    border-right: none;
+}
+
+#nav_menu ul li a:hover {
+    color: red;
+}
+
+/* Vertical Navigation List */
+#nav_list ul {
+    list-style: none;
+}
+
+#nav_list ul li {
+    border: 2px solid black;
+    width: 28%;
+}
+
+#nav_list ul li a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: lightsteelblue;
+    padding: .5em;
+    color: black;
+}
+
+#nav_list ul li a:hover, #nav_list ul li a:focus {
+    color: white;
+    background-color: steelblue;
+}
+
+section h2, section h3, aside h2 {
+    font-size: 150%;
+}
+
+section p {
+    margin: 15px;
+}
+
+section blockquote {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 90%;
+    color: navy;
+    border-left: 3px solid maroon;
+    padding-left: 5px;
+    background-color: khaki;
+}
+
+header img {
+    float:left;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+}
+
+li {
+    margin-top: 5px;
+}
+
+footer {
+    background-color: steelblue;
+    margin-top: 10px;
+    clear: both;
+}
+
+footer p {
+    font-size: 75%;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
